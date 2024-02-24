@@ -1,10 +1,11 @@
 let nome = "Cardosu";
-let xpHeroi = "5000";
+let xpHeroi = "10001";
 let nivel;
+let comeco;
 
-if (xpHeroi < 1000){
+if (xpHeroi <= 1000){
     nivel = "Ferro";
-}   else if (xpHeroi >= 1001 && xpHeroi <= 2000){
+} else if (xpHeroi >= 1001 && xpHeroi <= 2000){
     nivel = "Bronze";
 } else if (xpHeroi >= 2001 && xpHeroi <= 5000) {
     nivel = "Prata";
@@ -20,4 +21,4 @@ if (xpHeroi < 1000){
     nivel = "Radiante";
 }
 
-console.log("O Herói " + nome + " está no nível de " + nivel);
+console.log("O Herói " + nome + " está no nível " + nivel);
