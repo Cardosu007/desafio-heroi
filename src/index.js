@@ -1,7 +1,7 @@
 let nome = "Cardosu";
 let xpHeroi = "10001";
 let nivel;
-let comeco;
+
 
 if (xpHeroi <= 1000){
     nivel = "Ferro";
